@@ -1,22 +1,3 @@
-<div align="center">
-
-<a href="https://fullcycle.com.br">
-  <img src="https://github.com/devfullcycle.png" alt="Full Cycle" width="96" />
-</a>
-
-### Este projeto foi construído ao vivo na **Imersão IA da Full Cycle** 🚀
-
-**Torne-se um AI Engineer.** Aprenda a criar aplicações e agentes de IA de verdade, como este, no
-**MBA em Engenharia de Software com IA** da Full Cycle.
-
-<a href="https://ia.fullcycle.com.br/mba-ia/"><img src="https://img.shields.io/badge/Conhe%C3%A7a%20o%20MBA%20em%20Engenharia%20de%20Software%20com%20IA-%E2%86%92-black?style=for-the-badge" alt="Conheça o MBA em Engenharia de Software com IA" /></a>
-&nbsp;
-<a href="https://fullcycle.com.br"><img src="https://img.shields.io/badge/fullcycle.com.br-site%20oficial-555?style=for-the-badge" alt="Site da Full Cycle" /></a>
-
-</div>
-
----
-
 # Full Cycle Chat
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
@@ -102,8 +83,8 @@ dentro dos contêineres, então você não precisa de Node.js, pnpm, Python nem 
 máquina.
 
 ```bash
-git clone https://github.com/devfullcycle/imersao-ia1.git
-cd imersao-ia1
+git clone https://github.com/brenofelips/imersao-ia.git
+cd imersao-ia
 
 # Sobe os contêineres e espera o Postgres e o S3 ficarem prontos
 docker compose -f compose.yaml up -d --build --wait
@@ -188,12 +169,6 @@ Os tokens, os componentes e as regras que o código segue a partir desse design 
 | [`slack.fig`](slack.fig) | O design do Full Cycle Chat no Figma |
 | [`AGENTS.md`](AGENTS.md) | Como rodar o projeto e as convenções para agentes de código |
 
-## ⭐ Gostou?
-
-Deixe uma estrela no repositório e faça um fork para acompanhar as aulas construindo junto. Se
-quiser ir além e aprender a criar aplicações e agentes de IA como este, conheça o
-[MBA em Engenharia de Software com IA](https://ia.fullcycle.com.br/mba-ia/).
-
 ## Licença
 
 Distribuído sob a licença MIT. Veja o arquivo [`LICENSE`](LICENSE).
@@ -203,13 +178,13 @@ Distribuído sob a licença MIT. Veja o arquivo [`LICENSE`](LICENSE).
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/argentinaluiz">
-        <img src="https://github.com/argentinaluiz.png" width="100" alt="Luiz Carlos" /><br />
-        <b>Luiz Carlos</b>
+      <a href="https://github.com/brenofelips">
+        <img src="https://github.com/brenofelips.png" width="100" alt="Breno Felipes" /><br />
+        <b>Breno Felipes</b>
       </a>
       <br />
-      <a href="https://github.com/argentinaluiz">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/argentinaluiz">LinkedIn</a>
+      <a href="https://github.com/brenofelips">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/felipsbreno/">LinkedIn</a>
     </td>
   </tr>
 </table>
