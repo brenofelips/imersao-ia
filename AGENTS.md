@@ -156,7 +156,8 @@ A pasta da tarefa só recebe, além da tarefa e do plano, registros da própria 
 
 - **Branch principal:** `main`. Nunca faça commit direto nela.
 - **Branches de trabalho:** `feature/*`, `bugfix/*`, `hotfix/*` e `docs/*`, criadas a partir da `main` e integradas por pull request.
-- **Commits:** mensagens curtas e descritivas, focadas no porquê da mudança.
+- **Commits:** seguem o [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/), no formato `<tipo>(<escopo opcional>): <descrição>`. Os tipos são `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci` e `chore`. A descrição é curta, no imperativo, em minúsculas e sem ponto final, focada no porquê da mudança. Mudança incompatível leva `!` depois do tipo ou do escopo (`feat(api)!: ...`).
+- **Granularidade:** um commit por mudança lógica, ou por um grupo de mudanças que fazem sentido juntas. Não misture assuntos num mesmo commit.
 - **Merge:** o merge é decisão do usuário. O agente só o faz quando o usuário autoriza expressamente aquele PR ou aquela tarefa. Sem autorização expressa, o agente não faz o merge, e uma negação do `gh pr merge` não se contorna por outro caminho.
 
 ## Consulta à documentação de bibliotecas
