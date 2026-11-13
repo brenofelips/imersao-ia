@@ -1,3 +1,6 @@
 .history/
 .pnpm-store/
 .uv-cache/
+.env
+.env.*
+!.env.example
